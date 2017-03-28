@@ -8,7 +8,7 @@ ENV SONAR_VERSION=6.3 \
     # Defaults to using H2
     SONARQUBE_JDBC_USERNAME=sonar \
     SONARQUBE_JDBC_PASSWORD=sonar \
-    SONARQUBE_JDBC_URL=
+    SONARQUBE_JDBC_URL=jdbc:mysql://10.90.11.122:3306/sonar-6.3?useUnicode=true&characterEncoding=utf8
 
 # Http port
 EXPOSE 9000
